@@ -15,7 +15,6 @@ button{
     height: 8vh;
     border: 0.1vw solid #18191A;
 }
-
 .logo{
     display: flex;
     justify-content: space-evenly;

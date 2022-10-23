@@ -8,6 +8,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="./styles/login-styles.css">
     <link rel="stylesheet" href="./styles/styles-geral.css">
+    <script src="./js/login.js"></script>
 </head>
 
 <body>
@@ -22,12 +23,12 @@
                         </div>
                         <div class="inputLogin txt-amarelo">
                             
-                            <input class="campo poppins" type="email" name="email" placeholder="Email">
-                            <input class="campo poppins" type="password" name="senha" placeholder="Senha">
+                            <input onkeyup="verificarEmail()" id="email" class="campo poppins" type="email" name="email" placeholder="Email">
+                            <input id="Mostrar" class="campo poppins" type="password" name="senha" placeholder="Senha">
                             
                             
                             <div class="senha poppins">
-                                <span class="mostrarSenha"><input class="Check poppins" type="checkbox" name="checkbox">Mostrar senha</span>
+                                <span class="mostrarSenha"><input onclick="mostrarSenha()" class="Check poppins" type="checkbox" name="checkbox">Mostrar senha</span>
                                 <span class="rec txt-amarelo" >Esqueceu a Senha?</span> 
                             </div>
                             <div class="mensagem poppins">O melhor vinho não é necessariamente o mais caro, mas o que nós compartilhamos.</div>
@@ -39,7 +40,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="logo txt-amarelo"><ul class="poppins"><a href="./index.html">Home</a></ul><img src="./Assets/img/logo.png" alt=""><div>
+                <div class="logo txt-amarelo"><ul class="poppins"><a href="./index.html">Home</a></ul><img src="./Assets/img/logo.svg" alt=""><div>
             </div>
         </div>
     </div>

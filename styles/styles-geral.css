@@ -5,17 +5,16 @@
     margin: 0px;
     font-family: Cinzel, "Regular";
 }
+.poppins{
+    font-family: Poppins, "Regular";
+}
 a{
     text-decoration: none;
 }
 .container{
-    width: 75%;
+    width: 80vw;
     align-items: center;
 }
-.poppins{
-    font-family: Poppins, "Regular";
-}
-
 .txt-amarelo{
     color: #E2B024;
 }
@@ -35,8 +34,4 @@ a{
     background-color: black;
 }
 
-.img-fundo-vinhos{
-    background-image: url(../Assets/img/fundo-home.png);
-    width: 100%;
-   
-}
+

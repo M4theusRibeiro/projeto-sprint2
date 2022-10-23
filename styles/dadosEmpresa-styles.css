@@ -15,7 +15,6 @@ button{
     height: 8vh;
     border: 0.1vw solid #18191A;
 }
-
 .logo{
     display: flex;
     justify-content: space-evenly;
@@ -141,7 +140,6 @@ button{
     border-right: 0px;
     color: #fff;
     background-color: #1E1E1E;
-    
 }
 .campo4 {
     display: flex;
@@ -197,7 +195,6 @@ button{
     height: 2vh;
     max-height: 2vh;
 }
-
 .mostrarSenha{
     display: flex;
     align-items: center;
